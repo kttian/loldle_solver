@@ -1,0 +1,2960 @@
+{
+    "Lux": {
+        "resource": "Mana",
+        "gender": "Female",
+        "species": [
+            "Human",
+            "Magicborn"
+        ],
+        "positions": [
+            "Middle",
+            "Support"
+        ],
+        "regions": [
+            "Demacia"
+        ],
+        "range_type": [
+            "Ranged"
+        ],
+        "release_year": 2010
+    },
+    "Aatrox": {
+        "resource": "Manaless",
+        "gender": "Male",
+        "species": [
+            "Darkin"
+        ],
+        "positions": [
+            "Top"
+        ],
+        "regions": [
+            "Runeterra",
+            "Shurima"
+        ],
+        "range_type": [
+            "Melee"
+        ],
+        "release_year": 2013
+    },
+    "Ahri": {
+        "resource": "Mana",
+        "gender": "Female",
+        "species": [
+            "Vastayan"
+        ],
+        "positions": [
+            "Middle"
+        ],
+        "regions": [
+            "Ionia"
+        ],
+        "range_type": [
+            "Ranged"
+        ],
+        "release_year": 2011
+    },
+    "Akali": {
+        "resource": "Energy",
+        "gender": "Female",
+        "species": [
+            "Human"
+        ],
+        "positions": [
+            "Top",
+            "Middle"
+        ],
+        "regions": [
+            "Ionia"
+        ],
+        "range_type": [
+            "Melee"
+        ],
+        "release_year": 2010
+    },
+    "Akshan": {
+        "resource": "Mana",
+        "gender": "Male",
+        "species": [
+            "Human"
+        ],
+        "positions": [
+            "Top",
+            "Middle"
+        ],
+        "regions": [
+            "Shurima"
+        ],
+        "range_type": [
+            "Ranged"
+        ],
+        "release_year": 2021
+    },
+    "Alistar": {
+        "resource": "Mana",
+        "gender": "Male",
+        "species": [
+            "Minotaur"
+        ],
+        "positions": [
+            "Support"
+        ],
+        "regions": [
+            "Runeterra"
+        ],
+        "range_type": [
+            "Melee"
+        ],
+        "release_year": 2009
+    },
+    "Amumu": {
+        "resource": "Mana",
+        "gender": "Male",
+        "species": [
+            "Undead",
+            "Yordle"
+        ],
+        "positions": [
+            "Jungle",
+            "Support"
+        ],
+        "regions": [
+            "Shurima"
+        ],
+        "range_type": [
+            "Melee"
+        ],
+        "release_year": 2009
+    },
+    "Anivia": {
+        "resource": "Mana",
+        "gender": "Female",
+        "species": [
+            "Spirit",
+            "God"
+        ],
+        "positions": [
+            "Middle"
+        ],
+        "regions": [
+            "Freljord"
+        ],
+        "range_type": [
+            "Ranged"
+        ],
+        "release_year": 2009
+    },
+    "Annie": {
+        "resource": "Mana",
+        "gender": "Female",
+        "species": [
+            "Human",
+            "Magicborn"
+        ],
+        "positions": [
+            "Middle"
+        ],
+        "regions": [
+            "Noxus",
+            "Runeterra"
+        ],
+        "range_type": [
+            "Ranged"
+        ],
+        "release_year": 2009
+    },
+    "Aphelios": {
+        "resource": "Mana",
+        "gender": "Male",
+        "species": [
+            "Human",
+            "Spiritualist"
+        ],
+        "positions": [
+            "Bottom"
+        ],
+        "regions": [
+            "Targon"
+        ],
+        "range_type": [
+            "Ranged"
+        ],
+        "release_year": 2019
+    },
+    "Ashe": {
+        "resource": "Mana",
+        "gender": "Female",
+        "species": [
+            "Human",
+            "Iceborn"
+        ],
+        "positions": [
+            "Bottom",
+            "Support"
+        ],
+        "regions": [
+            "Freljord"
+        ],
+        "range_type": [
+            "Ranged"
+        ],
+        "release_year": 2009
+    },
+    "Aurelion Sol": {
+        "resource": "Mana",
+        "gender": "Male",
+        "species": [
+            "Celestial",
+            "Dragon"
+        ],
+        "positions": [
+            "Middle"
+        ],
+        "regions": [
+            "Runeterra",
+            "Targon"
+        ],
+        "range_type": [
+            "Ranged"
+        ],
+        "release_year": 2016
+    },
+    "Azir": {
+        "resource": "Mana",
+        "gender": "Male",
+        "species": [
+            "God-Warrior"
+        ],
+        "positions": [
+            "Middle"
+        ],
+        "regions": [
+            "Shurima"
+        ],
+        "range_type": [
+            "Ranged"
+        ],
+        "release_year": 2014
+    },
+    "Bard": {
+        "resource": "Mana",
+        "gender": "Male",
+        "species": [
+            "Celestial"
+        ],
+        "positions": [
+            "Support"
+        ],
+        "regions": [
+            "Runeterra"
+        ],
+        "range_type": [
+            "Ranged"
+        ],
+        "release_year": 2015
+    },
+    "Blitzcrank": {
+        "resource": "Mana",
+        "gender": "Other",
+        "species": [
+            "Golem"
+        ],
+        "positions": [
+            "Support"
+        ],
+        "regions": [
+            "Zaun"
+        ],
+        "range_type": [
+            "Melee"
+        ],
+        "release_year": 2009
+    },
+    "Brand": {
+        "resource": "Mana",
+        "gender": "Male",
+        "species": [
+            "Human",
+            "Magically Altered"
+        ],
+        "positions": [
+            "Support"
+        ],
+        "regions": [
+            "Freljord",
+            "Runeterra"
+        ],
+        "range_type": [
+            "Ranged"
+        ],
+        "release_year": 2011
+    },
+    "Braum": {
+        "resource": "Mana",
+        "gender": "Male",
+        "species": [
+            "Human",
+            "Iceborn"
+        ],
+        "positions": [
+            "Support"
+        ],
+        "regions": [
+            "Freljord"
+        ],
+        "range_type": [
+            "Melee"
+        ],
+        "release_year": 2014
+    },
+    "Caitlyn": {
+        "resource": "Mana",
+        "gender": "Female",
+        "species": [
+            "Human"
+        ],
+        "positions": [
+            "Bottom"
+        ],
+        "regions": [
+            "Piltover"
+        ],
+        "range_type": [
+            "Ranged"
+        ],
+        "release_year": 2011
+    },
+    "Camille": {
+        "resource": "Mana",
+        "gender": "Female",
+        "species": [
+            "Human",
+            "Cyborg"
+        ],
+        "positions": [
+            "Top"
+        ],
+        "regions": [
+            "Piltover"
+        ],
+        "range_type": [
+            "Melee"
+        ],
+        "release_year": 2016
+    },
+    "Cassiopeia": {
+        "resource": "Mana",
+        "gender": "Female",
+        "species": [
+            "Human",
+            "Magically Altered"
+        ],
+        "positions": [
+            "Middle"
+        ],
+        "regions": [
+            "Noxus",
+            "Shurima"
+        ],
+        "range_type": [
+            "Ranged"
+        ],
+        "release_year": 2010
+    },
+    "Cho'Gath": {
+        "resource": "Mana",
+        "gender": "Male",
+        "species": [
+            "Void-Being"
+        ],
+        "positions": [
+            "Top"
+        ],
+        "regions": [
+            "Void"
+        ],
+        "range_type": [
+            "Melee"
+        ],
+        "release_year": 2009
+    },
+    "Corki": {
+        "resource": "Mana",
+        "gender": "Male",
+        "species": [
+            "Yordle"
+        ],
+        "positions": [
+            "Middle"
+        ],
+        "regions": [
+            "Bandle City",
+            "Piltover"
+        ],
+        "range_type": [
+            "Ranged"
+        ],
+        "release_year": 2009
+    },
+    "Darius": {
+        "resource": "Mana",
+        "gender": "Male",
+        "species": [
+            "Human"
+        ],
+        "positions": [
+            "Top"
+        ],
+        "regions": [
+            "Noxus"
+        ],
+        "range_type": [
+            "Melee"
+        ],
+        "release_year": 2012
+    },
+    "Diana": {
+        "resource": "Mana",
+        "gender": "Female",
+        "species": [
+            "Human",
+            "Aspect"
+        ],
+        "positions": [
+            "Jungle",
+            "Middle"
+        ],
+        "regions": [
+            "Targon"
+        ],
+        "range_type": [
+            "Melee"
+        ],
+        "release_year": 2012
+    },
+    "Dr. Mundo": {
+        "resource": "Health costs",
+        "gender": "Male",
+        "species": [
+            "Human",
+            "Chemically Altered"
+        ],
+        "positions": [
+            "Top"
+        ],
+        "regions": [
+            "Zaun"
+        ],
+        "range_type": [
+            "Melee"
+        ],
+        "release_year": 2009
+    },
+    "Draven": {
+        "resource": "Mana",
+        "gender": "Male",
+        "species": [
+            "Human"
+        ],
+        "positions": [
+            "Bottom"
+        ],
+        "regions": [
+            "Noxus"
+        ],
+        "range_type": [
+            "Ranged"
+        ],
+        "release_year": 2012
+    },
+    "Ekko": {
+        "resource": "Mana",
+        "gender": "Male",
+        "species": [
+            "Human"
+        ],
+        "positions": [
+            "Jungle",
+            "Middle"
+        ],
+        "regions": [
+            "Zaun"
+        ],
+        "range_type": [
+            "Melee"
+        ],
+        "release_year": 2015
+    },
+    "Elise": {
+        "resource": "Mana",
+        "gender": "Female",
+        "species": [
+            "Human",
+            "Magically Altered"
+        ],
+        "positions": [
+            "Jungle"
+        ],
+        "regions": [
+            "Shadow Isles",
+            "Noxus"
+        ],
+        "range_type": [
+            "Melee",
+            "Ranged"
+        ],
+        "release_year": 2012
+    },
+    "Evelynn": {
+        "resource": "Mana",
+        "gender": "Female",
+        "species": [
+            "Demon",
+            "Spirit"
+        ],
+        "positions": [
+            "Jungle"
+        ],
+        "regions": [
+            "Runeterra"
+        ],
+        "range_type": [
+            "Melee"
+        ],
+        "release_year": 2009
+    },
+    "Ezreal": {
+        "resource": "Mana",
+        "gender": "Male",
+        "species": [
+            "Human",
+            "Magicborn"
+        ],
+        "positions": [
+            "Bottom"
+        ],
+        "regions": [
+            "Piltover"
+        ],
+        "range_type": [
+            "Ranged"
+        ],
+        "release_year": 2010
+    },
+    "Fiddlesticks": {
+        "resource": "Mana",
+        "gender": "Other",
+        "species": [
+            "Demon",
+            "Spirit"
+        ],
+        "positions": [
+            "Jungle"
+        ],
+        "regions": [
+            "Runeterra"
+        ],
+        "range_type": [
+            "Ranged"
+        ],
+        "release_year": 2009
+    },
+    "Fiora": {
+        "resource": "Mana",
+        "gender": "Female",
+        "species": [
+            "Human"
+        ],
+        "positions": [
+            "Top"
+        ],
+        "regions": [
+            "Demacia"
+        ],
+        "range_type": [
+            "Melee"
+        ],
+        "release_year": 2012
+    },
+    "Fizz": {
+        "resource": "Mana",
+        "gender": "Male",
+        "species": [
+            "Yordle"
+        ],
+        "positions": [
+            "Middle"
+        ],
+        "regions": [
+            "Bilgewater"
+        ],
+        "range_type": [
+            "Melee"
+        ],
+        "release_year": 2011
+    },
+    "Galio": {
+        "resource": "Mana",
+        "gender": "Male",
+        "species": [
+            "Golem"
+        ],
+        "positions": [
+            "Middle",
+            "Support"
+        ],
+        "regions": [
+            "Demacia"
+        ],
+        "range_type": [
+            "Melee"
+        ],
+        "release_year": 2010
+    },
+    "Gangplank": {
+        "resource": "Mana",
+        "gender": "Male",
+        "species": [
+            "Human"
+        ],
+        "positions": [
+            "Top"
+        ],
+        "regions": [
+            "Bilgewater"
+        ],
+        "range_type": [
+            "Melee"
+        ],
+        "release_year": 2009
+    },
+    "Garen": {
+        "resource": "Manaless",
+        "gender": "Male",
+        "species": [
+            "Human"
+        ],
+        "positions": [
+            "Top"
+        ],
+        "regions": [
+            "Demacia"
+        ],
+        "range_type": [
+            "Melee"
+        ],
+        "release_year": 2010
+    },
+    "Gnar": {
+        "resource": "Rage",
+        "gender": "Male",
+        "species": [
+            "Yordle"
+        ],
+        "positions": [
+            "Top"
+        ],
+        "regions": [
+            "Freljord"
+        ],
+        "range_type": [
+            "Melee",
+            "Ranged"
+        ],
+        "release_year": 2014
+    },
+    "Gragas": {
+        "resource": "Mana",
+        "gender": "Male",
+        "species": [
+            "Human"
+        ],
+        "positions": [
+            "Top",
+            "Jungle"
+        ],
+        "regions": [
+            "Freljord"
+        ],
+        "range_type": [
+            "Melee"
+        ],
+        "release_year": 2010
+    },
+    "Graves": {
+        "resource": "Mana",
+        "gender": "Male",
+        "species": [
+            "Human"
+        ],
+        "positions": [
+            "Jungle"
+        ],
+        "regions": [
+            "Bilgewater"
+        ],
+        "range_type": [
+            "Ranged"
+        ],
+        "release_year": 2011
+    },
+    "Gwen": {
+        "resource": "Mana",
+        "gender": "Female",
+        "species": [
+            "Human",
+            "Magically Altered"
+        ],
+        "positions": [
+            "Top"
+        ],
+        "regions": [
+            "Shadow Isles",
+            "Camavor"
+        ],
+        "range_type": [
+            "Melee"
+        ],
+        "release_year": 2021
+    },
+    "Hecarim": {
+        "resource": "Mana",
+        "gender": "Male",
+        "species": [
+            "Undead"
+        ],
+        "positions": [
+            "Jungle"
+        ],
+        "regions": [
+            "Shadow Isles",
+            "Camavor"
+        ],
+        "range_type": [
+            "Melee"
+        ],
+        "release_year": 2012
+    },
+    "Heimerdinger": {
+        "resource": "Mana",
+        "gender": "Male",
+        "species": [
+            "Yordle"
+        ],
+        "positions": [
+            "Middle",
+            "Support"
+        ],
+        "regions": [
+            "Piltover"
+        ],
+        "range_type": [
+            "Ranged"
+        ],
+        "release_year": 2009
+    },
+    "Illaoi": {
+        "resource": "Mana",
+        "gender": "Female",
+        "species": [
+            "Human",
+            "Spiritualist"
+        ],
+        "positions": [
+            "Top"
+        ],
+        "regions": [
+            "Bilgewater"
+        ],
+        "range_type": [
+            "Melee"
+        ],
+        "release_year": 2015
+    },
+    "Irelia": {
+        "resource": "Mana",
+        "gender": "Female",
+        "species": [
+            "Human",
+            "Spiritualist"
+        ],
+        "positions": [
+            "Top",
+            "Middle"
+        ],
+        "regions": [
+            "Ionia"
+        ],
+        "range_type": [
+            "Melee"
+        ],
+        "release_year": 2010
+    },
+    "Ivern": {
+        "resource": "Mana",
+        "gender": "Male",
+        "species": [
+            "Human",
+            "Magically Altered"
+        ],
+        "positions": [
+            "Jungle"
+        ],
+        "regions": [
+            "Ionia",
+            "Freljord"
+        ],
+        "range_type": [
+            "Ranged"
+        ],
+        "release_year": 2016
+    },
+    "Janna": {
+        "resource": "Mana",
+        "gender": "Female",
+        "species": [
+            "Spirit",
+            "God"
+        ],
+        "positions": [
+            "Support"
+        ],
+        "regions": [
+            "Zaun",
+            "Shurima"
+        ],
+        "range_type": [
+            "Ranged"
+        ],
+        "release_year": 2009
+    },
+    "Jarvan IV": {
+        "resource": "Mana",
+        "gender": "Male",
+        "species": [
+            "Human"
+        ],
+        "positions": [
+            "Jungle"
+        ],
+        "regions": [
+            "Demacia"
+        ],
+        "range_type": [
+            "Melee"
+        ],
+        "release_year": 2011
+    },
+    "Jax": {
+        "resource": "Mana",
+        "gender": "Male",
+        "species": [
+            "Unknown"
+        ],
+        "positions": [
+            "Jungle",
+            "Top"
+        ],
+        "regions": [
+            "Runeterra",
+            "Icathia",
+            "Shurima"
+        ],
+        "range_type": [
+            "Melee"
+        ],
+        "release_year": 2009
+    },
+    "Jayce": {
+        "resource": "Mana",
+        "gender": "Male",
+        "species": [
+            "Human"
+        ],
+        "positions": [
+            "Middle",
+            "Top"
+        ],
+        "regions": [
+            "Piltover"
+        ],
+        "range_type": [
+            "Melee",
+            "Ranged"
+        ],
+        "release_year": 2012
+    },
+    "Jhin": {
+        "resource": "Mana",
+        "gender": "Male",
+        "species": [
+            "Human",
+            "Spiritualist"
+        ],
+        "positions": [
+            "Bottom"
+        ],
+        "regions": [
+            "Ionia"
+        ],
+        "range_type": [
+            "Ranged"
+        ],
+        "release_year": 2016
+    },
+    "Jinx": {
+        "resource": "Mana",
+        "gender": "Female",
+        "species": [
+            "Human",
+            "Chemically Altered"
+        ],
+        "positions": [
+            "Bottom"
+        ],
+        "regions": [
+            "Zaun"
+        ],
+        "range_type": [
+            "Ranged"
+        ],
+        "release_year": 2013
+    },
+    "Kai'Sa": {
+        "resource": "Mana",
+        "gender": "Female",
+        "species": [
+            "Human",
+            "Void-Being"
+        ],
+        "positions": [
+            "Bottom"
+        ],
+        "regions": [
+            "Shurima",
+            "Void"
+        ],
+        "range_type": [
+            "Ranged"
+        ],
+        "release_year": 2018
+    },
+    "Kalista": {
+        "resource": "Mana",
+        "gender": "Female",
+        "species": [
+            "Undead"
+        ],
+        "positions": [
+            "Bottom"
+        ],
+        "regions": [
+            "Shadow Isles",
+            "Camavor"
+        ],
+        "range_type": [
+            "Ranged"
+        ],
+        "release_year": 2014
+    },
+    "Karma": {
+        "resource": "Mana",
+        "gender": "Female",
+        "species": [
+            "Human",
+            "Spiritualist"
+        ],
+        "positions": [
+            "Support"
+        ],
+        "regions": [
+            "Ionia"
+        ],
+        "range_type": [
+            "Ranged"
+        ],
+        "release_year": 2011
+    },
+    "Karthus": {
+        "resource": "Mana",
+        "gender": "Male",
+        "species": [
+            "Undead"
+        ],
+        "positions": [
+            "Jungle"
+        ],
+        "regions": [
+            "Shadow Isles",
+            "Noxus"
+        ],
+        "range_type": [
+            "Ranged"
+        ],
+        "release_year": 2009
+    },
+    "Kassadin": {
+        "resource": "Mana",
+        "gender": "Male",
+        "species": [
+            "Human",
+            "Void-Being"
+        ],
+        "positions": [
+            "Middle"
+        ],
+        "regions": [
+            "Shurima",
+            "Void"
+        ],
+        "range_type": [
+            "Melee"
+        ],
+        "release_year": 2009
+    },
+    "Katarina": {
+        "resource": "Manaless",
+        "gender": "Female",
+        "species": [
+            "Human"
+        ],
+        "positions": [
+            "Middle"
+        ],
+        "regions": [
+            "Noxus"
+        ],
+        "range_type": [
+            "Melee"
+        ],
+        "release_year": 2009
+    },
+    "Kayle": {
+        "resource": "Mana",
+        "gender": "Female",
+        "species": [
+            "Human",
+            "Magically Altered",
+            "Aspect"
+        ],
+        "positions": [
+            "Top"
+        ],
+        "regions": [
+            "Demacia",
+            "Targon"
+        ],
+        "range_type": [
+            "Melee",
+            "Ranged"
+        ],
+        "release_year": 2009
+    },
+    "Kayn": {
+        "resource": "Mana",
+        "gender": "Male",
+        "species": [
+            "Darkin",
+            "Human",
+            "Magically Altered"
+        ],
+        "positions": [
+            "Jungle"
+        ],
+        "regions": [
+            "Ionia",
+            "Runeterra",
+            "Noxus",
+            "Shurima"
+        ],
+        "range_type": [
+            "Melee"
+        ],
+        "release_year": 2017
+    },
+    "Kennen": {
+        "resource": "Energy",
+        "gender": "Male",
+        "species": [
+            "Yordle"
+        ],
+        "positions": [
+            "Top"
+        ],
+        "regions": [
+            "Ionia"
+        ],
+        "range_type": [
+            "Ranged"
+        ],
+        "release_year": 2010
+    },
+    "Kha'Zix": {
+        "resource": "Mana",
+        "gender": "Male",
+        "species": [
+            "Void-Being"
+        ],
+        "positions": [
+            "Jungle"
+        ],
+        "regions": [
+            "Void"
+        ],
+        "range_type": [
+            "Melee"
+        ],
+        "release_year": 2012
+    },
+    "Kindred": {
+        "resource": "Mana",
+        "gender": "Other",
+        "species": [
+            "Spirit",
+            "God"
+        ],
+        "positions": [
+            "Jungle"
+        ],
+        "regions": [
+            "Runeterra"
+        ],
+        "range_type": [
+            "Ranged"
+        ],
+        "release_year": 2015
+    },
+    "Kled": {
+        "resource": "Courage",
+        "gender": "Male",
+        "species": [
+            "Yordle"
+        ],
+        "positions": [
+            "Top"
+        ],
+        "regions": [
+            "Noxus"
+        ],
+        "range_type": [
+            "Melee"
+        ],
+        "release_year": 2016
+    },
+    "Kog'Maw": {
+        "resource": "Mana",
+        "gender": "Male",
+        "species": [
+            "Void-Being"
+        ],
+        "positions": [
+            "Bottom"
+        ],
+        "regions": [
+            "Void"
+        ],
+        "range_type": [
+            "Ranged"
+        ],
+        "release_year": 2010
+    },
+    "LeBlanc": {
+        "resource": "Mana",
+        "gender": "Female",
+        "species": [
+            "Human",
+            "Magically Altered"
+        ],
+        "positions": [
+            "Middle"
+        ],
+        "regions": [
+            "Noxus"
+        ],
+        "range_type": [
+            "Ranged"
+        ],
+        "release_year": 2010
+    },
+    "Lee Sin": {
+        "resource": "Energy",
+        "gender": "Male",
+        "species": [
+            "Human",
+            "Spiritualist"
+        ],
+        "positions": [
+            "Jungle"
+        ],
+        "regions": [
+            "Ionia"
+        ],
+        "range_type": [
+            "Melee"
+        ],
+        "release_year": 2011
+    },
+    "Leona": {
+        "resource": "Mana",
+        "gender": "Female",
+        "species": [
+            "Human",
+            "Aspect"
+        ],
+        "positions": [
+            "Support"
+        ],
+        "regions": [
+            "Targon"
+        ],
+        "range_type": [
+            "Melee"
+        ],
+        "release_year": 2011
+    },
+    "Lillia": {
+        "resource": "Mana",
+        "gender": "Female",
+        "species": [
+            "Spirit"
+        ],
+        "positions": [
+            "Top",
+            "Jungle"
+        ],
+        "regions": [
+            "Ionia"
+        ],
+        "range_type": [
+            "Melee"
+        ],
+        "release_year": 2020
+    },
+    "Lissandra": {
+        "resource": "Mana",
+        "gender": "Female",
+        "species": [
+            "Human",
+            "Iceborn"
+        ],
+        "positions": [
+            "Middle"
+        ],
+        "regions": [
+            "Freljord"
+        ],
+        "range_type": [
+            "Ranged"
+        ],
+        "release_year": 2013
+    },
+    "Lucian": {
+        "resource": "Mana",
+        "gender": "Male",
+        "species": [
+            "Human"
+        ],
+        "positions": [
+            "Bottom"
+        ],
+        "regions": [
+            "Demacia",
+            "Shadow Isles"
+        ],
+        "range_type": [
+            "Ranged"
+        ],
+        "release_year": 2013
+    },
+    "Lulu": {
+        "resource": "Mana",
+        "gender": "Female",
+        "species": [
+            "Yordle"
+        ],
+        "positions": [
+            "Support"
+        ],
+        "regions": [
+            "Bandle City"
+        ],
+        "range_type": [
+            "Ranged"
+        ],
+        "release_year": 2012
+    },
+    "Malphite": {
+        "resource": "Mana",
+        "gender": "Male",
+        "species": [
+            "Golem"
+        ],
+        "positions": [
+            "Top"
+        ],
+        "regions": [
+            "Ixtal",
+            "Shurima"
+        ],
+        "range_type": [
+            "Melee"
+        ],
+        "release_year": 2009
+    },
+    "Malzahar": {
+        "resource": "Mana",
+        "gender": "Male",
+        "species": [
+            "Human",
+            "Void-Being"
+        ],
+        "positions": [
+            "Middle"
+        ],
+        "regions": [
+            "Shurima",
+            "Void"
+        ],
+        "range_type": [
+            "Ranged"
+        ],
+        "release_year": 2010
+    },
+    "Maokai": {
+        "resource": "Mana",
+        "gender": "Male",
+        "species": [
+            "Spirit"
+        ],
+        "positions": [
+            "Jungle",
+            "Support"
+        ],
+        "regions": [
+            "Shadow Isles"
+        ],
+        "range_type": [
+            "Melee"
+        ],
+        "release_year": 2011
+    },
+    "Master Yi": {
+        "resource": "Mana",
+        "gender": "Male",
+        "species": [
+            "Human",
+            "Spiritualist"
+        ],
+        "positions": [
+            "Jungle"
+        ],
+        "regions": [
+            "Ionia"
+        ],
+        "range_type": [
+            "Melee"
+        ],
+        "release_year": 2009
+    },
+    "Miss Fortune": {
+        "resource": "Mana",
+        "gender": "Female",
+        "species": [
+            "Human"
+        ],
+        "positions": [
+            "Bottom"
+        ],
+        "regions": [
+            "Bilgewater"
+        ],
+        "range_type": [
+            "Ranged"
+        ],
+        "release_year": 2010
+    },
+    "Mordekaiser": {
+        "resource": "Shield",
+        "gender": "Male",
+        "species": [
+            "Revenant"
+        ],
+        "positions": [
+            "Top"
+        ],
+        "regions": [
+            "Noxus"
+        ],
+        "range_type": [
+            "Melee"
+        ],
+        "release_year": 2010
+    },
+    "Morgana": {
+        "resource": "Mana",
+        "gender": "Female",
+        "species": [
+            "Human",
+            "Magically Altered",
+            "Aspect"
+        ],
+        "positions": [
+            "Support"
+        ],
+        "regions": [
+            "Demacia",
+            "Targon"
+        ],
+        "range_type": [
+            "Ranged"
+        ],
+        "release_year": 2009
+    },
+    "Nami": {
+        "resource": "Mana",
+        "gender": "Female",
+        "species": [
+            "Vastayan"
+        ],
+        "positions": [
+            "Support"
+        ],
+        "regions": [
+            "Runeterra"
+        ],
+        "range_type": [
+            "Ranged"
+        ],
+        "release_year": 2012
+    },
+    "Nasus": {
+        "resource": "Mana",
+        "gender": "Male",
+        "species": [
+            "God-Warrior"
+        ],
+        "positions": [
+            "Top"
+        ],
+        "regions": [
+            "Shurima"
+        ],
+        "range_type": [
+            "Melee"
+        ],
+        "release_year": 2009
+    },
+    "Nautilus": {
+        "resource": "Mana",
+        "gender": "Male",
+        "species": [
+            "Revenant"
+        ],
+        "positions": [
+            "Support"
+        ],
+        "regions": [
+            "Bilgewater"
+        ],
+        "range_type": [
+            "Melee"
+        ],
+        "release_year": 2012
+    },
+    "Neeko": {
+        "resource": "Mana",
+        "gender": "Female",
+        "species": [
+            "Vastayan"
+        ],
+        "positions": [
+            "Middle",
+            "Support"
+        ],
+        "regions": [
+            "Ixtal"
+        ],
+        "range_type": [
+            "Ranged"
+        ],
+        "release_year": 2018
+    },
+    "Nidalee": {
+        "resource": "Mana",
+        "gender": "Female",
+        "species": [
+            "Human",
+            "Spiritualist"
+        ],
+        "positions": [
+            "Jungle"
+        ],
+        "regions": [
+            "Ixtal"
+        ],
+        "range_type": [
+            "Melee",
+            "Ranged"
+        ],
+        "release_year": 2009
+    },
+    "Nocturne": {
+        "resource": "Mana",
+        "gender": "Male",
+        "species": [
+            "Demon",
+            "Spirit"
+        ],
+        "positions": [
+            "Jungle"
+        ],
+        "regions": [
+            "Runeterra"
+        ],
+        "range_type": [
+            "Melee"
+        ],
+        "release_year": 2011
+    },
+    "Nunu & Willump": {
+        "resource": "Mana",
+        "gender": "Male",
+        "species": [
+            "Human",
+            "Yeti"
+        ],
+        "positions": [
+            "Jungle"
+        ],
+        "regions": [
+            "Freljord"
+        ],
+        "range_type": [
+            "Melee"
+        ],
+        "release_year": 2009
+    },
+    "Olaf": {
+        "resource": "Mana",
+        "gender": "Male",
+        "species": [
+            "Human",
+            "Iceborn"
+        ],
+        "positions": [
+            "Top",
+            "Jungle"
+        ],
+        "regions": [
+            "Freljord"
+        ],
+        "range_type": [
+            "Melee"
+        ],
+        "release_year": 2010
+    },
+    "Orianna": {
+        "resource": "Mana",
+        "gender": "Female",
+        "species": [
+            "Golem"
+        ],
+        "positions": [
+            "Middle"
+        ],
+        "regions": [
+            "Piltover"
+        ],
+        "range_type": [
+            "Ranged"
+        ],
+        "release_year": 2011
+    },
+    "Ornn": {
+        "resource": "Mana",
+        "gender": "Male",
+        "species": [
+            "Spirit",
+            "God"
+        ],
+        "positions": [
+            "Top"
+        ],
+        "regions": [
+            "Freljord"
+        ],
+        "range_type": [
+            "Melee"
+        ],
+        "release_year": 2017
+    },
+    "Pantheon": {
+        "resource": "Mana",
+        "gender": "Male",
+        "species": [
+            "Human",
+            "Aspect"
+        ],
+        "positions": [
+            "Jungle",
+            "Middle",
+            "Support"
+        ],
+        "regions": [
+            "Targon"
+        ],
+        "range_type": [
+            "Melee"
+        ],
+        "release_year": 2010
+    },
+    "Poppy": {
+        "resource": "Mana",
+        "gender": "Female",
+        "species": [
+            "Yordle"
+        ],
+        "positions": [
+            "Top",
+            "Jungle"
+        ],
+        "regions": [
+            "Demacia"
+        ],
+        "range_type": [
+            "Melee"
+        ],
+        "release_year": 2010
+    },
+    "Pyke": {
+        "resource": "Mana",
+        "gender": "Male",
+        "species": [
+            "Revenant"
+        ],
+        "positions": [
+            "Support"
+        ],
+        "regions": [
+            "Bilgewater"
+        ],
+        "range_type": [
+            "Melee"
+        ],
+        "release_year": 2018
+    },
+    "Qiyana": {
+        "resource": "Mana",
+        "gender": "Female",
+        "species": [
+            "Human",
+            "Magicborn"
+        ],
+        "positions": [
+            "Jungle",
+            "Middle"
+        ],
+        "regions": [
+            "Ixtal"
+        ],
+        "range_type": [
+            "Melee"
+        ],
+        "release_year": 2019
+    },
+    "Quinn": {
+        "resource": "Mana",
+        "gender": "Female",
+        "species": [
+            "Human"
+        ],
+        "positions": [
+            "Top"
+        ],
+        "regions": [
+            "Demacia"
+        ],
+        "range_type": [
+            "Ranged"
+        ],
+        "release_year": 2013
+    },
+    "Rakan": {
+        "resource": "Mana",
+        "gender": "Male",
+        "species": [
+            "Vastayan"
+        ],
+        "positions": [
+            "Support"
+        ],
+        "regions": [
+            "Ionia"
+        ],
+        "range_type": [
+            "Melee"
+        ],
+        "release_year": 2017
+    },
+    "Rammus": {
+        "resource": "Mana",
+        "gender": "Male",
+        "species": [
+            "God-Warrior"
+        ],
+        "positions": [
+            "Jungle"
+        ],
+        "regions": [
+            "Shurima"
+        ],
+        "range_type": [
+            "Melee"
+        ],
+        "release_year": 2009
+    },
+    "Rek'Sai": {
+        "resource": "Rage",
+        "gender": "Female",
+        "species": [
+            "Void-Being"
+        ],
+        "positions": [
+            "Jungle"
+        ],
+        "regions": [
+            "Shurima",
+            "Void"
+        ],
+        "range_type": [
+            "Melee"
+        ],
+        "release_year": 2014
+    },
+    "Rell": {
+        "resource": "Mana",
+        "gender": "Female",
+        "species": [
+            "Human",
+            "Magicborn",
+            "Magically Altered"
+        ],
+        "positions": [
+            "Support"
+        ],
+        "regions": [
+            "Noxus"
+        ],
+        "range_type": [
+            "Melee"
+        ],
+        "release_year": 2020
+    },
+    "Renekton": {
+        "resource": "Fury",
+        "gender": "Male",
+        "species": [
+            "God-Warrior"
+        ],
+        "positions": [
+            "Top"
+        ],
+        "regions": [
+            "Shurima"
+        ],
+        "range_type": [
+            "Melee"
+        ],
+        "release_year": 2011
+    },
+    "Rengar": {
+        "resource": "Ferocity",
+        "gender": "Male",
+        "species": [
+            "Vastayan"
+        ],
+        "positions": [
+            "Top",
+            "Jungle"
+        ],
+        "regions": [
+            "Ixtal",
+            "Shurima"
+        ],
+        "range_type": [
+            "Melee"
+        ],
+        "release_year": 2012
+    },
+    "Riven": {
+        "resource": "Manaless",
+        "gender": "Female",
+        "species": [
+            "Human"
+        ],
+        "positions": [
+            "Top"
+        ],
+        "regions": [
+            "Ionia",
+            "Noxus"
+        ],
+        "range_type": [
+            "Melee"
+        ],
+        "release_year": 2011
+    },
+    "Rumble": {
+        "resource": "Heat",
+        "gender": "Male",
+        "species": [
+            "Yordle"
+        ],
+        "positions": [
+            "Top",
+            "Middle"
+        ],
+        "regions": [
+            "Bandle City"
+        ],
+        "range_type": [
+            "Melee"
+        ],
+        "release_year": 2011
+    },
+    "Ryze": {
+        "resource": "Mana",
+        "gender": "Male",
+        "species": [
+            "Human",
+            "Magically Altered"
+        ],
+        "positions": [
+            "Top",
+            "Middle"
+        ],
+        "regions": [
+            "Runeterra"
+        ],
+        "range_type": [
+            "Ranged"
+        ],
+        "release_year": 2009
+    },
+    "Samira": {
+        "resource": "Mana",
+        "gender": "Female",
+        "species": [
+            "Human"
+        ],
+        "positions": [
+            "Bottom"
+        ],
+        "regions": [
+            "Shurima",
+            "Noxus"
+        ],
+        "range_type": [
+            "Ranged"
+        ],
+        "release_year": 2020
+    },
+    "Sejuani": {
+        "resource": "Mana",
+        "gender": "Female",
+        "species": [
+            "Human",
+            "Iceborn"
+        ],
+        "positions": [
+            "Top",
+            "Jungle"
+        ],
+        "regions": [
+            "Freljord"
+        ],
+        "range_type": [
+            "Melee"
+        ],
+        "release_year": 2012
+    },
+    "Senna": {
+        "resource": "Mana",
+        "gender": "Female",
+        "species": [
+            "Human",
+            "Undead"
+        ],
+        "positions": [
+            "Support"
+        ],
+        "regions": [
+            "Shadow Isles"
+        ],
+        "range_type": [
+            "Ranged"
+        ],
+        "release_year": 2019
+    },
+    "Seraphine": {
+        "resource": "Mana",
+        "gender": "Female",
+        "species": [
+            "Human",
+            "Magicborn"
+        ],
+        "positions": [
+            "Support"
+        ],
+        "regions": [
+            "Piltover",
+            "Zaun"
+        ],
+        "range_type": [
+            "Ranged"
+        ],
+        "release_year": 2020
+    },
+    "Sett": {
+        "resource": "Grit",
+        "gender": "Male",
+        "species": [
+            "Human",
+            "Vastayan"
+        ],
+        "positions": [
+            "Top"
+        ],
+        "regions": [
+            "Ionia"
+        ],
+        "range_type": [
+            "Melee"
+        ],
+        "release_year": 2020
+    },
+    "Shaco": {
+        "resource": "Mana",
+        "gender": "Male",
+        "species": [
+            "Spirit"
+        ],
+        "positions": [
+            "Jungle"
+        ],
+        "regions": [
+            "Runeterra"
+        ],
+        "range_type": [
+            "Melee"
+        ],
+        "release_year": 2009
+    },
+    "Shen": {
+        "resource": "Energy",
+        "gender": "Male",
+        "species": [
+            "Human",
+            "Spiritualist"
+        ],
+        "positions": [
+            "Top"
+        ],
+        "regions": [
+            "Ionia"
+        ],
+        "range_type": [
+            "Melee"
+        ],
+        "release_year": 2010
+    },
+    "Shyvana": {
+        "resource": "Fury",
+        "gender": "Female",
+        "species": [
+            "Dragon",
+            "Magically Altered"
+        ],
+        "positions": [
+            "Jungle"
+        ],
+        "regions": [
+            "Demacia"
+        ],
+        "range_type": [
+            "Melee"
+        ],
+        "release_year": 2011
+    },
+    "Singed": {
+        "resource": "Mana",
+        "gender": "Male",
+        "species": [
+            "Human",
+            "Chemically Altered"
+        ],
+        "positions": [
+            "Top"
+        ],
+        "regions": [
+            "Zaun",
+            "Piltover"
+        ],
+        "range_type": [
+            "Melee"
+        ],
+        "release_year": 2009
+    },
+    "Sion": {
+        "resource": "Mana",
+        "gender": "Male",
+        "species": [
+            "Revenant"
+        ],
+        "positions": [
+            "Top"
+        ],
+        "regions": [
+            "Noxus"
+        ],
+        "range_type": [
+            "Melee"
+        ],
+        "release_year": 2009
+    },
+    "Sivir": {
+        "resource": "Mana",
+        "gender": "Female",
+        "species": [
+            "Human"
+        ],
+        "positions": [
+            "Bottom"
+        ],
+        "regions": [
+            "Shurima"
+        ],
+        "range_type": [
+            "Ranged"
+        ],
+        "release_year": 2009
+    },
+    "Skarner": {
+        "resource": "Mana",
+        "gender": "Male",
+        "species": [
+            "Brackern"
+        ],
+        "positions": [
+            "Jungle"
+        ],
+        "regions": [
+            "Shurima"
+        ],
+        "range_type": [
+            "Melee"
+        ],
+        "release_year": 2011
+    },
+    "Sona": {
+        "resource": "Mana",
+        "gender": "Female",
+        "species": [
+            "Human",
+            "Magicborn"
+        ],
+        "positions": [
+            "Support"
+        ],
+        "regions": [
+            "Demacia",
+            "Ionia"
+        ],
+        "range_type": [
+            "Ranged"
+        ],
+        "release_year": 2010
+    },
+    "Soraka": {
+        "resource": "Mana",
+        "gender": "Female",
+        "species": [
+            "Celestial"
+        ],
+        "positions": [
+            "Support"
+        ],
+        "regions": [
+            "Targon",
+            "Ionia"
+        ],
+        "range_type": [
+            "Ranged"
+        ],
+        "release_year": 2009
+    },
+    "Swain": {
+        "resource": "Mana",
+        "gender": "Male",
+        "species": [
+            "Human",
+            "Magically Altered"
+        ],
+        "positions": [
+            "Middle",
+            "Support"
+        ],
+        "regions": [
+            "Noxus"
+        ],
+        "range_type": [
+            "Ranged"
+        ],
+        "release_year": 2010
+    },
+    "Sylas": {
+        "resource": "Mana",
+        "gender": "Male",
+        "species": [
+            "Human",
+            "Magicborn"
+        ],
+        "positions": [
+            "Middle"
+        ],
+        "regions": [
+            "Demacia",
+            "Freljord"
+        ],
+        "range_type": [
+            "Melee"
+        ],
+        "release_year": 2019
+    },
+    "Syndra": {
+        "resource": "Mana",
+        "gender": "Female",
+        "species": [
+            "Human",
+            "Magicborn"
+        ],
+        "positions": [
+            "Middle"
+        ],
+        "regions": [
+            "Ionia"
+        ],
+        "range_type": [
+            "Ranged"
+        ],
+        "release_year": 2012
+    },
+    "Tahm Kench": {
+        "resource": "Mana",
+        "gender": "Male",
+        "species": [
+            "Demon",
+            "Spirit"
+        ],
+        "positions": [
+            "Top",
+            "Support"
+        ],
+        "regions": [
+            "Bilgewater",
+            "Runeterra"
+        ],
+        "range_type": [
+            "Melee"
+        ],
+        "release_year": 2015
+    },
+    "Taliyah": {
+        "resource": "Mana",
+        "gender": "Female",
+        "species": [
+            "Human",
+            "Magicborn"
+        ],
+        "positions": [
+            "Jungle",
+            "Middle"
+        ],
+        "regions": [
+            "Shurima"
+        ],
+        "range_type": [
+            "Ranged"
+        ],
+        "release_year": 2016
+    },
+    "Talon": {
+        "resource": "Mana",
+        "gender": "Male",
+        "species": [
+            "Human"
+        ],
+        "positions": [
+            "Jungle",
+            "Middle"
+        ],
+        "regions": [
+            "Noxus"
+        ],
+        "range_type": [
+            "Melee"
+        ],
+        "release_year": 2011
+    },
+    "Taric": {
+        "resource": "Mana",
+        "gender": "Male",
+        "species": [
+            "Human",
+            "Aspect"
+        ],
+        "positions": [
+            "Support"
+        ],
+        "regions": [
+            "Targon",
+            "Demacia"
+        ],
+        "range_type": [
+            "Melee"
+        ],
+        "release_year": 2009
+    },
+    "Teemo": {
+        "resource": "Mana",
+        "gender": "Male",
+        "species": [
+            "Yordle"
+        ],
+        "positions": [
+            "Top"
+        ],
+        "regions": [
+            "Bandle City"
+        ],
+        "range_type": [
+            "Ranged"
+        ],
+        "release_year": 2009
+    },
+    "Thresh": {
+        "resource": "Mana",
+        "gender": "Male",
+        "species": [
+            "Undead"
+        ],
+        "positions": [
+            "Support"
+        ],
+        "regions": [
+            "Shadow Isles"
+        ],
+        "range_type": [
+            "Ranged"
+        ],
+        "release_year": 2013
+    },
+    "Tristana": {
+        "resource": "Mana",
+        "gender": "Female",
+        "species": [
+            "Yordle"
+        ],
+        "positions": [
+            "Bottom"
+        ],
+        "regions": [
+            "Bandle City"
+        ],
+        "range_type": [
+            "Ranged"
+        ],
+        "release_year": 2009
+    },
+    "Trundle": {
+        "resource": "Mana",
+        "gender": "Male",
+        "species": [
+            "Troll",
+            "Iceborn"
+        ],
+        "positions": [
+            "Top",
+            "Jungle"
+        ],
+        "regions": [
+            "Freljord"
+        ],
+        "range_type": [
+            "Melee"
+        ],
+        "release_year": 2010
+    },
+    "Tryndamere": {
+        "resource": "Fury",
+        "gender": "Male",
+        "species": [
+            "Human",
+            "Magically Altered"
+        ],
+        "positions": [
+            "Top"
+        ],
+        "regions": [
+            "Freljord"
+        ],
+        "range_type": [
+            "Melee"
+        ],
+        "release_year": 2009
+    },
+    "Twisted Fate": {
+        "resource": "Mana",
+        "gender": "Male",
+        "species": [
+            "Human",
+            "Magicborn"
+        ],
+        "positions": [
+            "Middle"
+        ],
+        "regions": [
+            "Bilgewater"
+        ],
+        "range_type": [
+            "Ranged"
+        ],
+        "release_year": 2009
+    },
+    "Twitch": {
+        "resource": "Mana",
+        "gender": "Male",
+        "species": [
+            "Rat",
+            "Chemically Altered"
+        ],
+        "positions": [
+            "Bottom"
+        ],
+        "regions": [
+            "Zaun"
+        ],
+        "range_type": [
+            "Ranged"
+        ],
+        "release_year": 2009
+    },
+    "Udyr": {
+        "resource": "Mana",
+        "gender": "Male",
+        "species": [
+            "Human",
+            "Spiritualist"
+        ],
+        "positions": [
+            "Jungle",
+            "Top"
+        ],
+        "regions": [
+            "Freljord",
+            "Ionia"
+        ],
+        "range_type": [
+            "Melee"
+        ],
+        "release_year": 2009
+    },
+    "Urgot": {
+        "resource": "Mana",
+        "gender": "Male",
+        "species": [
+            "Human",
+            "Chemically Altered",
+            "Cyborg"
+        ],
+        "positions": [
+            "Top"
+        ],
+        "regions": [
+            "Noxus",
+            "Zaun"
+        ],
+        "range_type": [
+            "Ranged"
+        ],
+        "release_year": 2010
+    },
+    "Varus": {
+        "resource": "Mana",
+        "gender": "Male",
+        "species": [
+            "Darkin",
+            "Human"
+        ],
+        "positions": [
+            "Bottom",
+            "Middle"
+        ],
+        "regions": [
+            "Ionia",
+            "Runeterra",
+            "Shurima"
+        ],
+        "range_type": [
+            "Ranged"
+        ],
+        "release_year": 2012
+    },
+    "Vayne": {
+        "resource": "Mana",
+        "gender": "Female",
+        "species": [
+            "Human"
+        ],
+        "positions": [
+            "Top",
+            "Bottom"
+        ],
+        "regions": [
+            "Demacia"
+        ],
+        "range_type": [
+            "Ranged"
+        ],
+        "release_year": 2011
+    },
+    "Veigar": {
+        "resource": "Mana",
+        "gender": "Male",
+        "species": [
+            "Yordle"
+        ],
+        "positions": [
+            "Middle"
+        ],
+        "regions": [
+            "Runeterra",
+            "Bandle City"
+        ],
+        "range_type": [
+            "Ranged"
+        ],
+        "release_year": 2009
+    },
+    "Vel'Koz": {
+        "resource": "Mana",
+        "gender": "Male",
+        "species": [
+            "Void-Being"
+        ],
+        "positions": [
+            "Middle",
+            "Support"
+        ],
+        "regions": [
+            "Void"
+        ],
+        "range_type": [
+            "Ranged"
+        ],
+        "release_year": 2014
+    },
+    "Vex": {
+        "resource": "Mana",
+        "gender": "Female",
+        "species": [
+            "Yordle"
+        ],
+        "positions": [
+            "Middle"
+        ],
+        "regions": [
+            "Shadow Isles",
+            "Bandle City"
+        ],
+        "range_type": [
+            "Ranged"
+        ],
+        "release_year": 2021
+    },
+    "Vi": {
+        "resource": "Mana",
+        "gender": "Female",
+        "species": [
+            "Human"
+        ],
+        "positions": [
+            "Jungle"
+        ],
+        "regions": [
+            "Piltover",
+            "Zaun"
+        ],
+        "range_type": [
+            "Melee"
+        ],
+        "release_year": 2012
+    },
+    "Viego": {
+        "resource": "Manaless",
+        "gender": "Male",
+        "species": [
+            "Undead"
+        ],
+        "positions": [
+            "Jungle"
+        ],
+        "regions": [
+            "Shadow Isles",
+            "Camavor"
+        ],
+        "range_type": [
+            "Melee"
+        ],
+        "release_year": 2021
+    },
+    "Viktor": {
+        "resource": "Mana",
+        "gender": "Male",
+        "species": [
+            "Human",
+            "Cyborg"
+        ],
+        "positions": [
+            "Middle"
+        ],
+        "regions": [
+            "Piltover",
+            "Zaun"
+        ],
+        "range_type": [
+            "Ranged"
+        ],
+        "release_year": 2011
+    },
+    "Vladimir": {
+        "resource": "Bloodthirst",
+        "gender": "Male",
+        "species": [
+            "Human",
+            "Magically Altered"
+        ],
+        "positions": [
+            "Middle"
+        ],
+        "regions": [
+            "Noxus",
+            "Shadow Isles",
+            "Camavor"
+        ],
+        "range_type": [
+            "Ranged"
+        ],
+        "release_year": 2010
+    },
+    "Volibear": {
+        "resource": "Mana",
+        "gender": "Male",
+        "species": [
+            "Spirit",
+            "God"
+        ],
+        "positions": [
+            "Top",
+            "Jungle"
+        ],
+        "regions": [
+            "Freljord"
+        ],
+        "range_type": [
+            "Melee"
+        ],
+        "release_year": 2011
+    },
+    "Warwick": {
+        "resource": "Mana",
+        "gender": "Male",
+        "species": [
+            "Human",
+            "Chemically Altered",
+            "Cyborg"
+        ],
+        "positions": [
+            "Jungle",
+            "Top"
+        ],
+        "regions": [
+            "Zaun"
+        ],
+        "range_type": [
+            "Melee"
+        ],
+        "release_year": 2009
+    },
+    "Wukong": {
+        "resource": "Mana",
+        "gender": "Male",
+        "species": [
+            "Vastayan"
+        ],
+        "positions": [
+            "Top",
+            "Jungle"
+        ],
+        "regions": [
+            "Ionia"
+        ],
+        "range_type": [
+            "Melee"
+        ],
+        "release_year": 2011
+    },
+    "Xayah": {
+        "resource": "Mana",
+        "gender": "Female",
+        "species": [
+            "Vastayan"
+        ],
+        "positions": [
+            "Bottom"
+        ],
+        "regions": [
+            "Ionia"
+        ],
+        "range_type": [
+            "Ranged"
+        ],
+        "release_year": 2017
+    },
+    "Xerath": {
+        "resource": "Mana",
+        "gender": "Male",
+        "species": [
+            "God-Warrior"
+        ],
+        "positions": [
+            "Middle",
+            "Support"
+        ],
+        "regions": [
+            "Shurima"
+        ],
+        "range_type": [
+            "Ranged"
+        ],
+        "release_year": 2011
+    },
+    "Xin Zhao": {
+        "resource": "Mana",
+        "gender": "Male",
+        "species": [
+            "Human"
+        ],
+        "positions": [
+            "Jungle"
+        ],
+        "regions": [
+            "Demacia",
+            "Ionia",
+            "Noxus"
+        ],
+        "range_type": [
+            "Melee"
+        ],
+        "release_year": 2010
+    },
+    "Yasuo": {
+        "resource": "Flow",
+        "gender": "Male",
+        "species": [
+            "Human",
+            "Magicborn"
+        ],
+        "positions": [
+            "Middle"
+        ],
+        "regions": [
+            "Ionia"
+        ],
+        "range_type": [
+            "Melee"
+        ],
+        "release_year": 2013
+    },
+    "Yone": {
+        "resource": "Manaless",
+        "gender": "Male",
+        "species": [
+            "Human",
+            "Magically Altered"
+        ],
+        "positions": [
+            "Top",
+            "Middle"
+        ],
+        "regions": [
+            "Ionia"
+        ],
+        "range_type": [
+            "Melee"
+        ],
+        "release_year": 2020
+    },
+    "Yorick": {
+        "resource": "Mana",
+        "gender": "Male",
+        "species": [
+            "Human",
+            "Magically Altered"
+        ],
+        "positions": [
+            "Top"
+        ],
+        "regions": [
+            "Shadow Isles"
+        ],
+        "range_type": [
+            "Melee"
+        ],
+        "release_year": 2011
+    },
+    "Yuumi": {
+        "resource": "Mana",
+        "gender": "Female",
+        "species": [
+            "Cat",
+            "Magically Altered"
+        ],
+        "positions": [
+            "Support"
+        ],
+        "regions": [
+            "Bandle City"
+        ],
+        "range_type": [
+            "Ranged"
+        ],
+        "release_year": 2019
+    },
+    "Zac": {
+        "resource": "Health costs",
+        "gender": "Male",
+        "species": [
+            "Golem"
+        ],
+        "positions": [
+            "Jungle"
+        ],
+        "regions": [
+            "Zaun"
+        ],
+        "range_type": [
+            "Melee"
+        ],
+        "release_year": 2013
+    },
+    "Zed": {
+        "resource": "Energy",
+        "gender": "Male",
+        "species": [
+            "Human",
+            "Magically Altered"
+        ],
+        "positions": [
+            "Middle"
+        ],
+        "regions": [
+            "Ionia"
+        ],
+        "range_type": [
+            "Melee"
+        ],
+        "release_year": 2012
+    },
+    "Zeri": {
+        "resource": "Mana",
+        "gender": "Female",
+        "species": [
+            "Human",
+            "Magicborn"
+        ],
+        "positions": [
+            "Bottom"
+        ],
+        "regions": [
+            "Zaun"
+        ],
+        "range_type": [
+            "Ranged"
+        ],
+        "release_year": 2022
+    },
+    "Ziggs": {
+        "resource": "Mana",
+        "gender": "Male",
+        "species": [
+            "Yordle"
+        ],
+        "positions": [
+            "Middle",
+            "Bottom"
+        ],
+        "regions": [
+            "Zaun"
+        ],
+        "range_type": [
+            "Ranged"
+        ],
+        "release_year": 2012
+    },
+    "Zilean": {
+        "resource": "Mana",
+        "gender": "Male",
+        "species": [
+            "Human",
+            "Magicborn"
+        ],
+        "positions": [
+            "Support"
+        ],
+        "regions": [
+            "Runeterra",
+            "Icathia",
+            "Shurima"
+        ],
+        "range_type": [
+            "Ranged"
+        ],
+        "release_year": 2009
+    },
+    "Zoe": {
+        "resource": "Mana",
+        "gender": "Female",
+        "species": [
+            "Human",
+            "Aspect"
+        ],
+        "positions": [
+            "Middle"
+        ],
+        "regions": [
+            "Targon"
+        ],
+        "range_type": [
+            "Ranged"
+        ],
+        "release_year": 2017
+    },
+    "Zyra": {
+        "resource": "Mana",
+        "gender": "Female",
+        "species": [
+            "Unknown"
+        ],
+        "positions": [
+            "Support"
+        ],
+        "regions": [
+            "Ixtal"
+        ],
+        "range_type": [
+            "Ranged"
+        ],
+        "release_year": 2012
+    },
+    "Renata Glasc": {
+        "resource": "Mana",
+        "gender": "Female",
+        "species": [
+            "Human",
+            "Chemically Altered"
+        ],
+        "positions": [
+            "Support"
+        ],
+        "regions": [
+            "Zaun"
+        ],
+        "range_type": [
+            "Ranged"
+        ],
+        "release_year": 2022
+    },
+    "Bel'Veth": {
+        "resource": "Manaless",
+        "gender": "Female",
+        "species": [
+            "Void-Being"
+        ],
+        "positions": [
+            "Jungle"
+        ],
+        "regions": [
+            "Void"
+        ],
+        "range_type": [
+            "Melee"
+        ],
+        "release_year": 2022
+    },
+    "Nilah": {
+        "resource": "Mana",
+        "gender": "Female",
+        "species": [
+            "Human",
+            "Magically Altered"
+        ],
+        "positions": [
+            "Bottom"
+        ],
+        "regions": [
+            "Bilgewater"
+        ],
+        "range_type": [
+            "Melee"
+        ],
+        "release_year": 2022
+    },
+    "K'Sante": {
+        "resource": "Mana",
+        "gender": "Male",
+        "species": [
+            "Human"
+        ],
+        "positions": [
+            "Top"
+        ],
+        "regions": [
+            "Shurima"
+        ],
+        "range_type": [
+            "Melee"
+        ],
+        "release_year": 2022
+    },
+    "Urf": {
+        "resource": "Unknown",
+        "gender": "Male",
+        "species": [
+            "Manatee"
+        ],
+        "positions": [
+            "Top",
+            "Jungle",
+            "Middle",
+            "Support",
+            "Bottom"
+        ],
+        "regions": [
+            "Runeterra"
+        ],
+        "range_type": [
+            "Melee"
+        ],
+        "release_year": 2010
+    }
+}
