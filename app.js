@@ -147,6 +147,45 @@ function computeCandidates() {
   });
 }
 
+// --- Entropy ---
+function compareLists(a, b) {
+  const setB = new Set(b);
+  if (a.length === setB.size && a.every(v => setB.has(v))) return "green";
+  if (a.some(v => setB.has(v))) return "yellow";
+  return "red";
+}
+
+function provideFeedback(guess, candidate) {
+  const fb = {};
+  for (const { key, type } of ATTRS) {
+    if (type === "single") {
+      fb[key] = guess[key] === candidate[key] ? "green" : "red";
+    } else if (type === "array") {
+      fb[key] = compareLists(guess[key], candidate[key]);
+    } else if (type === "year") {
+      if (guess[key] === candidate[key]) fb[key] = "green";
+      else if (candidate[key] < guess[key]) fb[key] = "earlier";
+      else fb[key] = "later";
+    }
+  }
+  return JSON.stringify(fb);
+}
+
+function computeEntropy(guess, candidates) {
+  const counts = new Map();
+  for (const c of candidates) {
+    const fb = provideFeedback(guess, c);
+    counts.set(fb, (counts.get(fb) || 0) + 1);
+  }
+  const total = candidates.length;
+  let entropy = 0;
+  for (const n of counts.values()) {
+    const p = n / total;
+    entropy -= p * Math.log2(p);
+  }
+  return entropy;
+}
+
 // --- Render helpers ---
 function displayValue(champ, attrKey) {
   const v = champ[attrKey];
@@ -217,10 +256,14 @@ function renderCandidates() {
     return;
   }
 
-  candidates.forEach(champ => {
+  const ranked = candidates
+    .map(c => ({ champ: c, entropy: computeEntropy(c, candidates) }))
+    .sort((a, b) => b.entropy - a.entropy);
+
+  ranked.forEach(({ champ, entropy }) => {
     const chip = document.createElement("div");
     chip.className = "candidate-chip";
-    chip.textContent = champ.name;
+    chip.textContent = `${champ.name} (${entropy.toFixed(2)})`;
     candidatesList.appendChild(chip);
   });
 }
