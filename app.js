@@ -227,7 +227,8 @@ function renderGuesses() {
 
   // Body
   const tbody = table.createTBody();
-  guesses.forEach((champ, i) => {
+  [...guesses].reverse().forEach((champ, ri) => {
+    const i = guesses.length - 1 - ri;
     const tr = tbody.insertRow();
 
     // Champion name cell
