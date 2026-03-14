@@ -10,6 +10,8 @@ body {
   color: #e0e6f0;
   min-height: 100vh;
   padding: 2rem 1rem;
+  background-image:
+    radial-gradient(ellipse at 50% 0%, rgba(200,155,60,0.06) 0%, transparent 60%);
 }
 
 .container {
@@ -23,35 +25,39 @@ header {
 }
 
 h1 {
-  font-size: 2.4rem;
+  font-size: 2.6rem;
   font-weight: 700;
   color: #c89b3c;
-  letter-spacing: 0.05em;
+  letter-spacing: 0.06em;
+  text-shadow: 0 0 30px rgba(200,155,60,0.25);
 }
 
 .subtitle {
-  color: #8a94a8;
-  margin-top: 0.4rem;
+  color: #6b7a90;
+  margin-top: 0.5rem;
   font-size: 0.95rem;
+  letter-spacing: 0.02em;
 }
 
 /* Input */
 .input-section {
-  background: #111827;
+  background: linear-gradient(135deg, #111827 0%, #0f1b2d 100%);
   border: 1px solid #1e2a3a;
-  border-radius: 10px;
+  border-radius: 12px;
   padding: 1.5rem;
   margin-bottom: 2rem;
   position: relative;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.3);
 }
 
 .input-section label {
   display: block;
-  font-size: 0.85rem;
+  font-size: 0.8rem;
   text-transform: uppercase;
-  letter-spacing: 0.08em;
-  color: #8a94a8;
+  letter-spacing: 0.1em;
+  color: #6b7a90;
   margin-bottom: 0.6rem;
+  font-weight: 600;
 }
 
 .input-row {
@@ -61,34 +67,45 @@ h1 {
 
 input[type="text"] {
   flex: 1;
-  padding: 0.6rem 1rem;
-  background: #0d1420;
+  padding: 0.65rem 1rem;
+  background: #080c16;
   border: 1px solid #2a3a50;
-  border-radius: 6px;
+  border-radius: 8px;
   color: #e0e6f0;
   font-size: 1rem;
   outline: none;
-  transition: border-color 0.2s;
+  transition: border-color 0.2s, box-shadow 0.2s;
 }
 
 input[type="text"]:focus {
   border-color: #c89b3c;
+  box-shadow: 0 0 0 3px rgba(200,155,60,0.15);
+}
+
+input[type="text"]::placeholder {
+  color: #3a4a60;
 }
 
 button {
-  padding: 0.6rem 1.4rem;
-  background: #c89b3c;
+  padding: 0.65rem 1.6rem;
+  background: linear-gradient(135deg, #c89b3c, #b8862e);
   color: #0a0e1a;
   border: none;
-  border-radius: 6px;
+  border-radius: 8px;
   font-size: 0.95rem;
-  font-weight: 600;
+  font-weight: 700;
   cursor: pointer;
-  transition: background 0.2s;
+  transition: transform 0.1s, box-shadow 0.2s;
+  letter-spacing: 0.02em;
 }
 
 button:hover {
-  background: #e0b24a;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 16px rgba(200,155,60,0.3);
+}
+
+button:active {
+  transform: translateY(0);
 }
 
 /* Autocomplete */
@@ -100,16 +117,18 @@ button:hover {
   background: #111827;
   border: 1px solid #2a3a50;
   border-top: none;
-  border-radius: 0 0 6px 6px;
+  border-radius: 0 0 8px 8px;
   max-height: 200px;
   overflow-y: auto;
   z-index: 100;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.4);
 }
 
 .autocomplete-list div {
-  padding: 0.5rem 1rem;
+  padding: 0.55rem 1rem;
   cursor: pointer;
   font-size: 0.95rem;
+  transition: background 0.15s;
 }
 
 .autocomplete-list div:hover {
@@ -125,32 +144,39 @@ button:hover {
 
 #guesses-section h2,
 #candidates-section h2 {
-  font-size: 1.1rem;
-  color: #8a94a8;
+  font-size: 1rem;
+  color: #6b7a90;
   text-transform: uppercase;
-  letter-spacing: 0.08em;
+  letter-spacing: 0.1em;
   margin-bottom: 1rem;
+  font-weight: 600;
 }
 
 #candidates-section h2 span {
   color: #c89b3c;
+  font-weight: 700;
 }
 
 /* Guess table */
 .guess-table {
   width: 100%;
-  border-collapse: collapse;
+  border-collapse: separate;
+  border-spacing: 0;
   font-size: 0.88rem;
   white-space: nowrap;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 2px 16px rgba(0,0,0,0.25);
 }
 
 .guess-table th {
   background: #0d1420;
-  color: #8a94a8;
+  color: #6b7a90;
   text-transform: uppercase;
-  letter-spacing: 0.06em;
-  font-size: 0.75rem;
-  padding: 0.5rem 0.75rem;
+  letter-spacing: 0.08em;
+  font-size: 0.72rem;
+  font-weight: 600;
+  padding: 0.6rem 0.75rem;
   text-align: center;
   border-bottom: 2px solid #1e2a3a;
   position: sticky;
@@ -161,50 +187,60 @@ button:hover {
   text-align: left;
 }
 
+.guess-table td {
+  background: #111827;
+}
+
 .guess-table tr + tr td {
-  border-top: 1px solid #1a2535;
+  border-top: 1px solid #1a2230;
 }
 
 .champion-cell {
-  padding: 0.65rem 0.9rem;
+  padding: 0.7rem 0.9rem;
   font-weight: 600;
   min-width: 110px;
-  color: #c8d0e0;
+  color: #d0d8e8;
+  letter-spacing: 0.01em;
 }
 
 .attr-cell {
-  padding: 0.65rem 0.75rem;
+  padding: 0.7rem 0.75rem;
   cursor: pointer;
   text-align: center;
   min-width: 90px;
   user-select: none;
-  transition: filter 0.1s;
-  color: #8a94a8;
+  transition: filter 0.15s, background 0.15s;
+  color: #5a6a80;
+  font-weight: 500;
 }
 
 .attr-cell:hover {
-  filter: brightness(1.2);
+  filter: brightness(1.3);
 }
 
 .attr-cell.correct {
-  background: #1a4731;
-  color: #68d391;
+  background: #14412e;
+  color: #5fe0a0;
+  font-weight: 600;
 }
 
 .attr-cell.partial {
-  background: #4a3200;
-  color: #f6ad55;
+  background: #42300a;
+  color: #f0a848;
+  font-weight: 600;
 }
 
 .attr-cell.wrong {
-  background: #3d1a1a;
-  color: #fc8181;
+  background: #361616;
+  color: #f07070;
+  font-weight: 600;
 }
 
 .attr-cell.higher,
 .attr-cell.lower {
-  background: #22263a;
-  color: #a0aec0;
+  background: #1a2040;
+  color: #90a0c0;
+  font-weight: 600;
 }
 
 /* Candidates grid */
@@ -217,16 +253,22 @@ button:hover {
 .candidate-chip {
   background: #111827;
   border: 1px solid #1e2a3a;
-  border-radius: 20px;
-  padding: 0.35rem 0.9rem;
-  font-size: 0.88rem;
-  color: #c8d0e0;
-  transition: border-color 0.2s;
+  border-radius: 8px;
+  padding: 0.4rem 0.85rem;
+  font-size: 0.85rem;
+  color: #b0b8c8;
+  transition: border-color 0.2s, background 0.2s, transform 0.1s;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
 }
 
 .candidate-chip:hover {
   border-color: #c89b3c;
-  color: #c89b3c;
+  color: #e0e6f0;
+  background: #161f30;
+  transform: translateY(-1px);
 }
 
 .candidate-chip.selected {
@@ -235,12 +277,26 @@ button:hover {
   color: #c89b3c;
 }
 
+.candidate-chip .entropy {
+  color: #4a5a70;
+  font-size: 0.75rem;
+  font-weight: 600;
+}
+
+.candidate-chip:hover .entropy {
+  color: #8a94a8;
+}
+
+.candidate-chip.selected .entropy {
+  color: #a07828;
+}
+
 .hidden {
   display: none;
 }
 
 .empty-state {
-  color: #4a5568;
+  color: #3a4a60;
   font-size: 0.95rem;
   padding: 1rem 0;
 }

@@ -265,8 +265,7 @@ function renderCandidates() {
   ranked.forEach(({ champ, entropy }) => {
     const chip = document.createElement("div");
     chip.className = "candidate-chip" + (selectedCandidate === champ.name ? " selected" : "");
-    chip.textContent = `${champ.name} (${entropy.toFixed(2)})`;
-    chip.style.cursor = "pointer";
+    chip.innerHTML = `${champ.name} <span class="entropy">${entropy.toFixed(2)}</span>`;
     chip.addEventListener("click", () => {
       if (selectedCandidate === champ.name) {
         selectedCandidate = null;
