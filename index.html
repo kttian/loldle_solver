@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Loldle Solver</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Loldle Solver</h1>
+      <p class="subtitle">Enter your guess results to narrow down the champion</p>
+    </header>
+
+    <main>
+      <section class="input-section">
+        <label for="champion-input">Guessed champion:</label>
+        <div class="input-row">
+          <input
+            id="champion-input"
+            type="text"
+            placeholder="e.g. Ahri"
+            autocomplete="off"
+          />
+          <button id="add-guess-btn">Add Guess</button>
+        </div>
+        <div id="autocomplete-list" class="autocomplete-list hidden"></div>
+      </section>
+
+      <section id="guesses-section" class="hidden">
+        <h2>Guesses</h2>
+        <div id="guesses-list"></div>
+      </section>
+
+      <section id="candidates-section">
+        <h2>Remaining candidates: <span id="candidate-count">—</span></h2>
+        <div id="candidates-list" class="candidates-grid"></div>
+      </section>
+    </main>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
