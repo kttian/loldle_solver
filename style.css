@@ -203,6 +203,26 @@ button:active {
   letter-spacing: 0.01em;
 }
 
+/* Guess hint */
+.guess-hint {
+  font-size: 0.82rem;
+  color: #5a6a80;
+  margin-bottom: 0.8rem;
+  letter-spacing: 0.01em;
+}
+
+.hint-unset { color: #5a6a80; }
+.hint-correct { color: #5fe0a0; }
+.hint-partial { color: #f0a848; }
+.hint-wrong { color: #f07070; }
+.hint-gray { color: #4a5568; }
+
+.section-hint {
+  font-size: 0.82rem;
+  color: #4a5568;
+  margin-bottom: 0.8rem;
+}
+
 .attr-cell {
   padding: 0.7rem 0.75rem;
   cursor: pointer;
@@ -212,6 +232,15 @@ button:active {
   transition: filter 0.15s, background 0.15s;
   color: #5a6a80;
   font-weight: 500;
+}
+
+.attr-cell.unset {
+  animation: pulse-border 2s ease-in-out infinite;
+}
+
+@keyframes pulse-border {
+  0%, 100% { box-shadow: inset 0 0 0 1px transparent; }
+  50% { box-shadow: inset 0 0 0 1px #3a4a60; }
 }
 
 .attr-cell:hover {

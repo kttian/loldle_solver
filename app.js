@@ -104,7 +104,7 @@ function cycleState(attrType, current) {
 function onCellClick(td, guessIdx, attrKey, attrType) {
   feedbackState[guessIdx][attrKey] = cycleState(attrType, feedbackState[guessIdx][attrKey]);
   const state = feedbackState[guessIdx][attrKey];
-  td.className = "attr-cell" + (state ? ` ${state}` : "");
+  td.className = "attr-cell" + (state ? ` ${state}` : " unset");
   td.textContent = displayValue(guesses[guessIdx], attrKey) + arrowFor(state);
   renderCandidates();
 }
@@ -240,7 +240,7 @@ function renderGuesses() {
     ATTRS.forEach(({ key, type }) => {
       const td    = tr.insertCell();
       const state = feedbackState[i][key];
-      td.className = "attr-cell" + (state ? ` ${state}` : "");
+      td.className = "attr-cell" + (state ? ` ${state}` : " unset");
       td.textContent = displayValue(champ, key) + arrowFor(state);
       td.addEventListener("click", () => onCellClick(td, i, key, type));
     });

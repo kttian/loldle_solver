@@ -35,11 +35,13 @@
 
       <section id="guesses-section" class="hidden">
         <h2>Guesses</h2>
+        <p class="guess-hint">Click each cell to match your Loldle result. Cycles through <span class="hint-unset">unset</span> → <span class="hint-correct">correct</span> → <span class="hint-partial">partial</span> <span class="hint-gray">(if applicable)</span> → <span class="hint-wrong">wrong</span></p>
         <div id="guesses-list"></div>
       </section>
 
       <section id="candidates-section">
         <h2>Remaining candidates: <span id="candidate-count">—</span></h2>
+        <p class="section-hint">Champions that match all your feedback, ranked by information gain. The greedy best next guess is listed first.</p>
         <div id="candidates-list" class="candidates-grid"></div>
       </section>
     </main>
