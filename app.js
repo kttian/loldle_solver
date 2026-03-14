@@ -281,6 +281,144 @@ function renderCandidates() {
   });
 }
 
+// --- Tabs ---
+function initTabs() {
+  document.querySelectorAll(".tab").forEach(btn => {
+    btn.addEventListener("click", () => {
+      document.querySelectorAll(".tab").forEach(b => b.classList.remove("active"));
+      btn.classList.add("active");
+      document.querySelectorAll(".tab-content").forEach(c => c.classList.add("hidden"));
+      document.getElementById("tab-" + btn.dataset.tab).classList.remove("hidden");
+      if (btn.dataset.tab === "glossary" && !glossaryRendered) {
+        renderGlossary();
+        glossaryRendered = true;
+      }
+    });
+  });
+}
+
+// --- Glossary ---
+let glossaryRendered = false;
+let glossarySortKey = "name";
+let glossarySortAsc = true;
+const glossaryFilters = {};
+const GLOSSARY_COLS = ["name", "gender", "positions", "species", "resource", "rangeType", "regions", "releaseYear"];
+
+function glossaryValue(champ, key) {
+  const v = champ[key];
+  if (Array.isArray(v)) return v.join(", ");
+  return v ?? "—";
+}
+
+function glossarySortCompare(a, b) {
+  const key = glossarySortKey;
+  let av = a[key], bv = b[key];
+  if (Array.isArray(av)) av = av.join(", ");
+  if (Array.isArray(bv)) bv = bv.join(", ");
+  if (av == null) av = "";
+  if (bv == null) bv = "";
+  if (typeof av === "number" && typeof bv === "number") {
+    return glossarySortAsc ? av - bv : bv - av;
+  }
+  av = String(av).toLowerCase();
+  bv = String(bv).toLowerCase();
+  if (av < bv) return glossarySortAsc ? -1 : 1;
+  if (av > bv) return glossarySortAsc ? 1 : -1;
+  return 0;
+}
+
+const ARRAY_COLS = new Set(["positions", "species", "rangeType", "regions"]);
+
+function matchesFilter(champ, key, filterVal) {
+  if (!filterVal) return true;
+  if (key === "name") {
+    return champ.name.toLowerCase().includes(filterVal.toLowerCase());
+  }
+  if (ARRAY_COLS.has(key)) {
+    return Array.isArray(champ[key]) && champ[key].includes(filterVal);
+  }
+  return String(champ[key] ?? "—") === filterVal;
+}
+
+function renderGlossary() {
+  const tbody = document.getElementById("glossary-body");
+  tbody.innerHTML = "";
+
+  const filtered = CHAMPION_DATA
+    .filter(c => GLOSSARY_COLS.every(key => matchesFilter(c, key, glossaryFilters[key])))
+    .sort(glossarySortCompare);
+
+  filtered.forEach(champ => {
+    const tr = document.createElement("tr");
+    GLOSSARY_COLS.forEach(key => {
+      const td = document.createElement("td");
+      td.textContent = glossaryValue(champ, key);
+      if (key === "name") td.className = "glossary-name";
+      tr.appendChild(td);
+    });
+    tbody.appendChild(tr);
+  });
+
+  // Update sort indicators
+  document.querySelectorAll(".glossary-table th").forEach(th => {
+    th.classList.remove("sort-asc", "sort-desc");
+    if (th.dataset.sort === glossarySortKey) {
+      th.classList.add(glossarySortAsc ? "sort-asc" : "sort-desc");
+    }
+  });
+}
+
+function populateFilterDropdowns() {
+  // Column dropdowns
+  GLOSSARY_COLS.forEach(key => {
+    if (key === "name") return;
+    const select = document.querySelector(`select[data-filter="${key}"]`);
+    if (!select) return;
+    const values = new Set();
+    CHAMPION_DATA.forEach(c => {
+      const v = c[key];
+      if (ARRAY_COLS.has(key) && Array.isArray(v)) {
+        v.forEach(item => values.add(item));
+      } else {
+        values.add(String(v ?? "—"));
+      }
+    });
+    [...values].sort((a, b) => {
+      if (key === "releaseYear") return Number(a) - Number(b);
+      return a.localeCompare(b);
+    }).forEach(v => {
+      const opt = document.createElement("option");
+      opt.value = v;
+      opt.textContent = v;
+      select.appendChild(opt);
+    });
+  });
+}
+
+function initGlossary() {
+  document.querySelectorAll(".glossary-table th[data-sort]").forEach(th => {
+    th.addEventListener("click", () => {
+      const key = th.dataset.sort;
+      if (glossarySortKey === key) {
+        glossarySortAsc = !glossarySortAsc;
+      } else {
+        glossarySortKey = key;
+        glossarySortAsc = true;
+      }
+      renderGlossary();
+    });
+  });
+
+  // Column filters
+  document.querySelectorAll(".filter-row select[data-filter]").forEach(sel => {
+    sel.addEventListener("change", () => {
+      glossaryFilters[sel.dataset.filter] = sel.value;
+      renderGlossary();
+    });
+  });
+  populateFilterDropdowns();
+}
+
 // --- Init ---
 function init() {
   champInput.addEventListener("input", onInput);
@@ -292,6 +430,8 @@ function init() {
   addBtn.addEventListener("click", addGuess);
   champInput.addEventListener("keydown", e => { if (e.key === "Enter") addGuess(); });
 
+  initTabs();
+  initGlossary();
   renderCandidates();
 }
 
