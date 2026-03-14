@@ -19,6 +19,7 @@ const CYCLES = {
 let CHAMPION_DATA = [];
 let guesses = [];       // array of champion data objects
 let feedbackState = []; // array of { attrKey: state }
+let selectedCandidate = null; // name of clicked candidate chip
 
 // --- DOM refs ---
 const champInput     = document.getElementById("champion-input");
@@ -89,6 +90,7 @@ function addGuess() {
   feedbackState.push(Object.fromEntries(ATTRS.map(a => [a.key, null])));
 
   champInput.value = "";
+  selectedCandidate = null;
   autocompleteList.classList.add("hidden");
   renderAll();
 }
@@ -262,8 +264,19 @@ function renderCandidates() {
 
   ranked.forEach(({ champ, entropy }) => {
     const chip = document.createElement("div");
-    chip.className = "candidate-chip";
+    chip.className = "candidate-chip" + (selectedCandidate === champ.name ? " selected" : "");
     chip.textContent = `${champ.name} (${entropy.toFixed(2)})`;
+    chip.style.cursor = "pointer";
+    chip.addEventListener("click", () => {
+      if (selectedCandidate === champ.name) {
+        selectedCandidate = null;
+        champInput.value = "";
+      } else {
+        selectedCandidate = champ.name;
+        champInput.value = champ.name;
+      }
+      renderCandidates();
+    });
     candidatesList.appendChild(chip);
   });
 }

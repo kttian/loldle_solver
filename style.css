@@ -229,6 +229,12 @@ button:hover {
   color: #c89b3c;
 }
 
+.candidate-chip.selected {
+  background: #1a2535;
+  border-color: #c89b3c;
+  color: #c89b3c;
+}
+
 .hidden {
   display: none;
 }
